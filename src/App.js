@@ -11,7 +11,6 @@ import SearchProducts from "./views/CatalogScreens/SearchProducts";
 import ProductView from "./views/CatalogScreens/ProductView";
 import NewProduct from "./views/CatalogScreens/NewProduct";
 import EditProduct from "./views/CatalogScreens/EditProduct/index";
-import axios from "axios";
 import { IntlProvider } from "react-intl";
 import { messages } from "./messages";
 // import de Register companies
@@ -22,7 +21,7 @@ import RegisterSucursalContanier from "./views/RegisterCompanyScreen/RegisterSuc
 import RegisterHeadCompany from "./views/RegisterCompanyScreen/RegisterHeadCompanyContainer/RegisterHeadCompany"; //this components works
 import RegisterCompanyContainer from "./views/RegisterCompanyScreen/RegisterCompanyContainer/RegisterCompanyContainer";
 import FormTest from "./components/CatologComponents/test/formtest";
-import { propTypes } from "react-bootstrap/esm/Image";
+//import { propTypes } from "react-bootstrap/esm/Image";
 
 const App = (props) => {
   const [user, setDatos] = useState({

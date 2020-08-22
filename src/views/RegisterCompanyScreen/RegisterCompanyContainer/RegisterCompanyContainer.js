@@ -10,7 +10,6 @@ import {
   ModalFooter,
   ModalBody,
   Modal,
-  Label,
 } from "reactstrap"; //importar elementos
 //import Formulario from "../formulario/formulario";
 import {Link } from "react-router-dom";
@@ -20,7 +19,7 @@ import { AiTwotoneDelete } from "react-icons/ai";
 import { MdModeEdit } from "react-icons/md";
 import LayoutSucursal from '../../Layouts/RegisterCompanyLayout/layoutsucursal';
 import "./index.css";
-import RegisterSucursalContainer from '../RegisterSucursalContainer/RegisterSucursalContanier'
+//import RegisterSucursalContainer from '../RegisterSucursalContainer/RegisterSucursalContanier'
 
 const RegisterCompanyContainer = (props) => {
   const companies = [
